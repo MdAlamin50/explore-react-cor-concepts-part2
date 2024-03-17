@@ -17,8 +17,15 @@ export default function Counter(){
        setCount(newCount)
     }
 
+    const setStyle={
+        border:'2px solid purple',
+        margin:'15px',
+        padding:'15px',
+        borderRadius:'15px'
+    }
+
   return(
-    <div style={{border:'3px solid yellow'}}>
+    <div style={setStyle}>
         <h3>Counter:{count}</h3>
         <button onClick={handleAdd}>Add</button>
         <button onClick={handleReduce}>Reduce</button>
