@@ -23,4 +23,5 @@ export default function friends() {
  * 2. use effect with dependency array
  * 3.use fetch to load data
  * 4.set loaded data to the state
+ * 5. display data on the component
  * **/
