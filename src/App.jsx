@@ -1,6 +1,8 @@
 import "./App.css";
 import Counter from "./conter"; 
 import Users from "./Users";
+import Friends from "./Friends";
+import Friend from "./friend";
 
 function App() {
   function handleClick() {
@@ -31,6 +33,8 @@ function App() {
 
       <button onClick={() =>addFore(3)}>Click Four</button>
       <Users></Users>
+      <Friends></Friends>
+      <Friend></Friend>
     </>
 
   );
