@@ -29,7 +29,7 @@ export default function Counter(){
         <h3>Counter:{count}</h3>
         <button onClick={handleAdd}>Add</button>
         <button onClick={handleReduce}>Reduce</button>
-        <button onClick={handleInto}>Into</button>
+        <button onClick={handleInto}>Into</button> 
     </div>
   )
-}
+} 
